@@ -1,3 +1,5 @@
+import react from "React"
+
 function formatDate(date) {
   let hours = date.getHours();
   if (hours < 10) {
