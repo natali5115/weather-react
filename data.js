@@ -1,4 +1,5 @@
-import react from "React"
+import React from "react";
+import axios from "axios";
 
 function formatDate(date) {
   let hours = date.getHours();
@@ -59,3 +60,4 @@ fahrenheitLink.addEventListener("click", convertToFahrenheit);
 
 let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", convertToCelsius);
+
